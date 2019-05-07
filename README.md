@@ -8,9 +8,9 @@ My configuration have some configs:
 
 Step 1: Install refind boot loader
 ```
-$ sudo apt-add-repository ppa:rodsmith/refind
-$ sudo apt-get update
-$ sudo apt-get install refind
+sudo apt-add-repository ppa:rodsmith/refind
+sudo apt-get update
+sudo apt-get install refind
 ```
 
 Step 2: Download my refind config file:
