@@ -14,7 +14,11 @@ $ sudo apt-get install refind
 ```
 
 Step 2: Download my refind config file:
-```wget -P ~/Downloads/ https://raw.githubusercontent.com/hoaibang07/refind-config-ubuntu/master/refind.conf```
+```
+wget -P ~/Downloads/ https://raw.githubusercontent.com/hoaibang07/refind-config-ubuntu/master/refind.conf
+```
 
 Step 3: Copy the file override the default config file:
-```sudo cp -f ~/Downloads/refind.conf /boot/efi/EFI/refind/refind.conf```
+```
+sudo cp -f ~/Downloads/refind.conf /boot/efi/EFI/refind/refind.conf
+```
