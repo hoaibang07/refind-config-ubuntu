@@ -7,14 +7,14 @@ My configuration have some configs:
 - Set default entry is the first entry
 
 Step 1: Install refind boot loader
-
+```
 $ sudo apt-add-repository ppa:rodsmith/refind
 $ sudo apt-get update
 $ sudo apt-get install refind
+```
 
 Step 2: Download my refind config file:
-
-wget https://github.com/hoaibang07/refind-config-ubuntu/
+```wget -P ~/Downloads/ https://raw.githubusercontent.com/hoaibang07/refind-config-ubuntu/master/refind.conf```
 
 Step 3: Copy the file override the default config file:
-sudo cp 
+```sudo cp -f ~/Downloads/refind.conf /boot/efi/EFI/refind/refind.conf```
